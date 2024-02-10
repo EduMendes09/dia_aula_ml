@@ -1,0 +1,22 @@
+{
+  "endpoints": [
+    {
+      "name": "endpoint1",
+      "url": "http://example.com/endpoint1",
+      "type": "real-time",
+      "authentication": {
+        "type": "api-key",
+        "key": "your_api_key"
+      }
+    },
+    {
+      "name": "endpoint2",
+      "url": "http://example.com/endpoint2",
+      "type": "batch",
+      "authentication": {
+        "type": "token",
+        "token": "your_authentication_token"
+      }
+    }
+  ]
+}
